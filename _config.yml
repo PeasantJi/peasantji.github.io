@@ -80,12 +80,12 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+#twitter:
+#  username               :
+#facebook:
+#  username               :
+#  app_id                 :
+#  publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "이지성(JISUNG LEE)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "You are an **amazing** person."
   location         : "판교(Pangyo)"
   email            : "unforeseengee@gmail.com"
   links:
@@ -132,9 +132,9 @@ author:
 # Site Footer
 footer:
   links:
-   # - label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:unforeseengee@gmail.com"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url:
