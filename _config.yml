@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "You are an **amazing** person."
   location         : "판교(Pangyo)"
-  email            : "mailto:unforeseengee@gmail.com"
+#   email            : "mailto:unforeseengee@gmail.com"
   links:
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
@@ -132,9 +132,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:unforeseengee@gmail.com"
+#     - label: "unforeseengee@gmail.com"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:unforeseengee@gmail.com"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url:
