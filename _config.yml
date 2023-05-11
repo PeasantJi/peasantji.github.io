@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" #"default" "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Ji's arcane shift into the unknown"
+title                    : "Ji's Arcane Shift"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이지성(JISUNG LEE)"
