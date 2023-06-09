@@ -107,7 +107,6 @@ print(isEmptyString) // false
 
 //프로퍼티를 이용해 문자열 길이 확인
 print(greeting.count) //2
-
 ```
 
 ## 특수문자(제어문자) : 
