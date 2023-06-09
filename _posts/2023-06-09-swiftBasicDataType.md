@@ -69,6 +69,7 @@ let 한글변수이름: Character = "ㄱ"
 ## String: 
  - 문자의 나열인 문자열, character와 마찬가지로 유니코드 9문자를 사용하며 앞뒤에 큰따옴표를 사용하여 표현
 ```swift
+//문자열 타입으로 선언
 let name: String = "Jisung"
 //이니셜라이저로 빈 문자열 생성
 var introduce: String = String()
