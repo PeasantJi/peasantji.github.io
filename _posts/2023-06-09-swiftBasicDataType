@@ -6,13 +6,6 @@ categories:
 ---
 
 # 스위프트 기본데이터 타입
-{% highlight swift linenos %}
-
-{% endhighlight %}
-```swift
-
-```
-
 
 ## Int와 UInt
 1. Int:  +, - 부호를 포함한 정수, Int의 최댓값 이상 UInt의 최댓값 미만을 사용할때 선택
