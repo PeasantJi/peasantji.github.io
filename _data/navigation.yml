@@ -1,5 +1,5 @@
 # main links
-main:
+#main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -10,3 +10,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+ sidebar-category:
+    - title: "Python"
+      children:
+        - title: "Python 문법"
+          url: /pythongrammar/
+        - title: "NLP"
+          url: /nlp/
+    - title: "Swift"
+      children:  
+        - title: "Swift 문법"
+          url: /swiftgrammar/
+        - title: "iOS"
+          url: /ios/
