@@ -1,5 +1,5 @@
 ---
-title: "Swift 프로그래밍"
+title: "Swift 문법"
 layout: archive
 permalink: /swiftgrammar/
 ---
