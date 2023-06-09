@@ -1,7 +1,7 @@
 ---
 title: "pythongrammar"
 layout: archive
-permalink: /pythongrammar
+permalink: /pythongrammar/
 ---
 
 
