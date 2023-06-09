@@ -3,7 +3,7 @@ title: "Python 문법"
 layout: archive
 permalink: /pythongrammar
 author_profile: true
-sidebar_mail: true
+sidebar_main: true
 ---
 
 
