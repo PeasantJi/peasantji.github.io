@@ -1,7 +1,7 @@
 ---
 title: "Python 문법"
 layout: archive
-permalink: /pythongrammar
+permalink: /pythongrammar/
 ---
 
 
