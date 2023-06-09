@@ -1,7 +1,7 @@
 ---
 title: "swiftgrammar"
 layout: archive
-permalink: /swiftgrammar
+permalink: /swiftgrammar/
 ---
 
 
