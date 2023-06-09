@@ -8,14 +8,16 @@ categories:
 # 스위프트 기본데이터 타입
 
 ## Int와 UInt
-1. Int:  +, - 부호를 포함한 정수, Int의 최댓값 이상 UInt의 최댓값 미만을 사용할때 선택
+1. Int:  
+ - +, - 부호를 포함한 정수, Int의 최댓값 이상 UInt의 최댓값 미만을 사용할때 선택
 ```swift
 var integer: Int = -100
 print("Int 최댓값: \(Int.max), Int 최솟값: \(Int.min)")
 //Int 최댓값: 9223372036854775807, Int 최솟값: -9223372036854775808
 ```
 
-2. UInt: - 부호를 포함하지 않는 0을 포함한 양의 정수
+2. UInt: 
+ - - 부호를 포함하지 않는 0을 포함한 양의 정수
 ```swift
 let unsignedInteger: UInt = 50
 print("UInt 최댓값: \(UInt.max), Int 최솟값: \(UInt.min)")
@@ -39,28 +41,33 @@ let octalInteger: Int = 0o34
 let hexadecimalInteger: Int = 0x1C
 ```
 
-## Bool: 참(true) 또는 거짓(false)만 값으로 가지는 자료형
+## Bool: 
+ - 참(true) 또는 거짓(false)만 값으로 가지는 자료형
 ```swift
 var boolean: Bool = true
 let isEarthFlat: Bool = false
 ```
-## Float: 64비트의 부동소수 표현, 최소 15자리의 십진수를 표현
+## Float: 
+ - 64비트의 부동소수 표현, 최소 15자리의 십진수를 표현
 ```swift
 var floatValue: Float = 123456.1
 ```
-## Double: 32비트의 부동소수 표현, 6자리의 숫자까지만 표현
+## Double: 
+ - 32비트의 부동소수 표현, 6자리의 숫자까지만 표현
 ```swift
 var doulbValue: Double = 1234567890.1
 ```
 
-## Character: 단 하나의 문자를  의미, 스위프트는 유니코드 9문자를 사용함. 영어는 물론 유니코드에서 지원하는 모든 언어 및 특수기호 등을 사용 가능
+## Character: 
+ - 단 하나의 문자를  의미, 스위프트는 유니코드 9문자를 사용함. 영어는 물론 유니코드에서 지원하는 모든 언어 및 특수기호 등을 사용 가능
 ```swift
 let alphabetA: Character = "A"
 let commandCharacter: Character = "❤" //값에 유니코드 문자를 사용가능
 let 한글변수이름: Character = "ㄱ"
 ```
 
-## String: 문자의 나열인 문자열, character와 마찬가지로 유니코드 9문자를 사용하며 앞뒤에 큰따옴표를 사용하여 표현
+## String: 
+ - 문자의 나열인 문자열, character와 마찬가지로 유니코드 9문자를 사용하며 앞뒤에 큰따옴표를 사용하여 표현
 ```swift
 let name: String = "Jisung"
 //이니셜라이저로 빈 문자열 생성
@@ -103,7 +110,8 @@ print(greeting.count) //2
 
 ```
 
-## 특수문자(제어문자) : 백슬레쉬에 특정한 문자를 조합하여 사용
+## 특수문자(제어문자) : 
+ - 백슬레쉬에 특정한 문자를 조합하여 사용
 \n : 줄바꿈 문자
 \\ : 문자열 내에서 백슬래시 표현
 \" : 문자열 내에서 큰따옴표 표현
