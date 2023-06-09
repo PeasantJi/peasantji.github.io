@@ -1,5 +1,5 @@
 ---
-title: "Python 문법"
+title: "pythongrammar"
 layout: archive
 permalink: /pythongrammar
 ---
