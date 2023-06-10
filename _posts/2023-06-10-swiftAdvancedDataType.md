@@ -15,7 +15,6 @@ categories:
 타입추론
 ---
 변수, 상수 선언할 때 타입을 명시하지 않아도 컴파일러가 할당된 값을 기준으로 타입 결정
-
 ```swift
 var name =  "jisung" // 타입추론을 통하여 name은 String타입으로 선언
 name = 100 // 앞서 추론에 의해 String 타입입으로 오류
@@ -24,7 +23,6 @@ name = 100 // 앞서 추론에 의해 String 타입입으로 오류
 타입 별칭
 ---
 이미 존재하는 데이터 타입에 의미로 다른이름(별칭)을 부여, 기본 타입 이름과 추가한 별칭 모두 사용 가능
-
 ```swift
 //각각 다른이름으로 Int 별칭 부여
 typealias MyInt = Int
@@ -43,7 +41,6 @@ let percentage: MyDouble = 99.9
 튜플
 ---
 튜플은 타입의 이름이 따로 지정되어 있지 않은 ‘지정된 데이터의 묶음’, 파이썬 튜플과 유사, 타입 이름이 따로 없고 일정 타입의 나열만으로 튜플 타입 생성
-
 ```swift
 // String, Int, Double 타입을 갖는 튜플
 var man: (String, Int, Double) = ("jisung", 34, 170.2)
@@ -55,7 +52,6 @@ person.2 = 178.5
 ```
 
 ### 튜플의 요소마다 이름을 지정
-
 ```swift
 //String, Int, Double 타입을 갖는 튜플
 var person: (name: String, age: Int, height: Double) = ("jisung", 34, 170.2)
@@ -69,14 +65,15 @@ person.age = 99
 //인덱스를 통해 값을 할당
 person.2 = 179.5
 ```
+
 ### 튜플 별칭 지정
 같은 모양의 튜플을 사용할때 긴 튜플 타입을 모두 안써줘도됨
-
 ```swift
 typealias PersonTuple = (name: String, age: Int, height: Double)
 let jisung: PersonTuple = ("jisung", 100, 178.5)
 print("이름: \(jisung.name), 나이: \(jisung.age), 신장: \(jisung.height)")
 ```
+
 
 컬렉션형 데이터 타입
 ===
@@ -105,8 +102,8 @@ var emptyArray2: [Any] = Array<Any> ()
 var emptyArray3: [Any] = []
 
 ```
-배열 활용
 
+배열 활용
 ```swift
 print(names[2]) //younghee
 names.append("elsa") // 마지막에 elsa추가
@@ -148,7 +145,6 @@ print(numberForName.isEmpty) //false
 print(numberForName.count) //3
 ```
 딕셔너리의 활용
-
 ```swift
 print(numberForName["chulsoo"]) //200
 print(numberForName["minji"]) //nil
@@ -190,6 +186,7 @@ firstnames3.insert("jenny") // 2
 print(firstnames3.count) // 4
 print(firstnames3.remove("chulsoon"))
 ```
+
 ### 집합 연산
 ```swift
 let englishClassStudents: Set<String>  = ["john",  "chulsoo",  "jason"]
@@ -225,7 +222,6 @@ print(동물.isSuperset(of: 새)) //동물은 새의 전체집합인가요? - tr
 
 컬렉션에서 임의의 요소 추출과 뒤섞기
 ```swift
-
 array.randomElement() // 임의의 요소
 array.shuffled() // 뒤죽박죽된 배열(원본은 그대로)
 array.shuffle() // array 자체를 뒤죽박죽 뒤섞기
