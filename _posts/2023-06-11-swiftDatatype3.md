@@ -26,9 +26,6 @@ enum School {
   case primary, elementary, middle, high, college, university, graduate
 }
 ```
-```swift
-
-```
 
 School 열거형 변수의 생성 및 값 변경
 ```swift
