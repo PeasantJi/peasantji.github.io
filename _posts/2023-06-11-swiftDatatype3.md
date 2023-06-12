@@ -39,8 +39,8 @@ var highestEducationLevel: School = .university
 // 같은 타입은 School 내부의 항목으로만 highestEducationLevel의 값을 변경
 highestEducationLevel = .graduate
 ```
-원시 값(Raw value)
-열거형의 각 항목은 자체로도 하나의 값이지만 항목의 원시 값(raw value)도 가질 수 있다 - > rawValue 프로퍼티
+
+열거형의 각 항목은 자체로도 하나의 값이지만 항목의 원시 값(raw value)도 가질 수 있다
 ```swift
 enum School: String {
   case primary = "유치원"
@@ -72,6 +72,7 @@ dinner = .pizza(dough: "치즈크러스트", topping: "불고기") //불고기 �
 dinner = .chicken(withSauce: true)
 dinner = .rice //밥
 ```
+
 여러 열거형의 응용
 ```swift
 enum PastaTaste {
