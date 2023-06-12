@@ -3,6 +3,7 @@ layout: single
 title:  "스위프트 심화 데이터 타입(2)"
 toc: true
 toc_label: "목차"
+toc_sticky: true
 toc_icon: "tasks"
 categories:
   - swiftgrammar
