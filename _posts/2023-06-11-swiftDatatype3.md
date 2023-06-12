@@ -6,6 +6,9 @@ toc_label: "목차"
 toc_icon: "tasks"
 categories:
   - swiftgrammar
+tags:
+  - Swift
+  - Enum
 
 ---
 열거형
