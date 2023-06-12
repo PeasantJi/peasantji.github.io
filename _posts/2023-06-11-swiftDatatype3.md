@@ -4,7 +4,6 @@ title:  "스위프트 심화 데이터 타입(2)"
 toc: true
 toc_label: "목차"
 toc_icon: "tasks"
-toc_sticky: false
 categories:
   - swiftgrammar
 
