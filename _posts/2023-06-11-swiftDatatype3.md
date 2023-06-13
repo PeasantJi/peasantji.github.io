@@ -1,6 +1,10 @@
 ---
 layout: single
 title:  "스위프트 심화 데이터 타입(2)"
+excerpt: "데이터타입 열거형 사용법"
+header:
+  teaser: /assets/img/Swift-Enum.jpg
+  caption: "Photo credit: [**becodable**](https://becodable.com/swift-enum/)"
 toc: true
 toc_label: "목차"
 toc_sticky: true
