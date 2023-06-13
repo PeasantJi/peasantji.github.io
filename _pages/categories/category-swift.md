@@ -1,6 +1,6 @@
 ---
 title: "Swift 문법"
-layout: list
+layout: archive
 permalink: /swiftgrammar/
 ---
 
