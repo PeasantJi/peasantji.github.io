@@ -15,7 +15,7 @@
       children:
         - title: "Python 문법"
           url: /pythongrammar/
-          category: "python-grammar"
+          category: "pythongrammar"
         - title: "NLP"
           url: /nlp/
           category: "nlp"
@@ -23,7 +23,7 @@
       children:  
         - title: "Swift 문법"
           url: /swiftgrammar/
-          category: "swift-grammar"
+          category: "swiftgrammarr"
         - title: "iOS"
           url: /ios/
           category: "ios"
