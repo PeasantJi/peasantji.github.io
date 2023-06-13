@@ -23,7 +23,7 @@
       children:  
         - title: "Swift 문법"
           url: /swiftgrammar/
-          category: "swiftgrammarr"
+          category: "swiftgrammar"
         - title: "iOS"
           url: /ios/
           category: "ios"
