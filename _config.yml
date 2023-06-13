@@ -20,7 +20,7 @@ title                    : "Ji's Arcane Shift"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이지성(JISUNG LEE)"
-description              : "iOS/Swift Developement blog"
+description              : "iOS/Swift and Python Developement blog"
 url                      : "https://peasantji.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
