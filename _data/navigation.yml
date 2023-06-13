@@ -15,11 +15,16 @@
       children:
         - title: "Python 문법"
           url: /pythongrammar/
+          category: "python-grammar"
         - title: "NLP"
           url: /nlp/
+          category: "nlp"
     - title: "Swift"
       children:  
         - title: "Swift 문법"
           url: /swiftgrammar/
+          category: "swift-grammar"
         - title: "iOS"
           url: /ios/
+          category: "ios"
+          
