@@ -6,6 +6,8 @@ header:
   teaser: /assets/img/operator.jpg
   image: /assets/img/operator.jpg
   caption: "Photo credit: [**ytimg**](https://i.ytimg.com/vi/Svaq3jVy8sU/)"
+categories:
+  - swiftgrammar
 tags:
   - Swift
   - Operators
