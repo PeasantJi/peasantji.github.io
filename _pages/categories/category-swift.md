@@ -2,6 +2,12 @@
 title: "Swift 문법"
 layout: archive
 permalink: /swiftgrammar/
+toc: true
+toc_label: "목차"
+toc_sticky: true
+toc_icon: "tasks"
+categories:
+  - swiftgrammar
 ---
 
 
