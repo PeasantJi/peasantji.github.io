@@ -13,7 +13,7 @@ toc_icon: "tasks"
 categories:
   - swiftgrammar
 ---
-# Int와 UInt
+## Int와 UInt
 ### 1. Int:  
  - +, - 부호를 포함한 정수, Int의 최댓값 이상 UInt의 최댓값 미만을 사용할때 선택
 ```swift
@@ -47,24 +47,24 @@ let octalInteger: Int = 0o34
 let hexadecimalInteger: Int = 0x1C
 ```
 
-# Bool: 
+## Bool 
  - 참(true) 또는 거짓(false)만 값으로 가지는 자료형
 ```swift
 var boolean: Bool = true
 let isEarthFlat: Bool = false
 ```
-# Float: 
+## Float
  - 32비트의 부동소수 표현, 6자리의 숫자까지만 표현
 ```swift
 var floatValue: Float = 123456.1
 ```
-# Double: 
+## Double
  - 64비트의 부동소수 표현, 최소 15자리의 십진수를 표현
 ```swift
 var doulbValue: Double = 1234567890.1
 ```
 
-# Character: 
+## Character
  - 단 하나의 문자를  의미, 스위프트는 유니코드 9문자를 사용함. 영어는 물론 유니코드에서 지원하는 모든 언어 및 특수기호 등을 사용 가능
 ```swift
 let alphabetA: Character = "A"
@@ -73,7 +73,7 @@ let commandCharacter: Character = "❤"
 let 한글변수이름: Character = "ㄱ"
 ```
 
-# String: 
+## String: 
  - 문자의 나열인 문자열, character와 마찬가지로 유니코드 9문자를 사용하며 앞뒤에 큰따옴표를 사용하여 표현
 
 ```swift
