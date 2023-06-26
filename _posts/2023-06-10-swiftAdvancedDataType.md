@@ -1,9 +1,6 @@
 ---
 layout: single
 title:  "스위프트 심화 데이터 타입(1)"
-header:
-  teaser: /assets/img/swift.png
-  image: /assets/img/swift.png
 categories:
   - swiftgrammar
 ---
