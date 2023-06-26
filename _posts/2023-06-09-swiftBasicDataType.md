@@ -4,6 +4,12 @@ title:  "스위프트 기본 데이터 타입"
 header:
   teaser: /assets/img/swift2.jpg
   image: /assets/img/swift2.jpg
+
+toc: true
+toc_label: "목차"
+toc_sticky: true
+toc_icon: "tasks"
+
 categories:
   - swiftgrammar
 ---
