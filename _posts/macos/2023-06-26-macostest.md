@@ -2,6 +2,8 @@
 layout: single
 title: "맥OS 데몬과 에이전트"
 excerpt: "맥OS에이전트 설명과 사용법"
+header:
+  image: /assets/img/swift2.jpg
 toc: true
 toc_label: "목차"
 toc_sticky: true
