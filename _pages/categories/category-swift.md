@@ -2,6 +2,7 @@
 title: "Swift 문법"
 layout: archive
 permalink: /swiftgrammar/
+classes: wide
 ---
 
 
