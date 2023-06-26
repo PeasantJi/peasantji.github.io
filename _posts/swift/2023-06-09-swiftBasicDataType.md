@@ -14,7 +14,7 @@ categories:
   - swiftgrammar
 ---
 ## Int와 UInt
-### 1. Int:  
+### Int
  - +, - 부호를 포함한 정수, Int의 최댓값 이상 UInt의 최댓값 미만을 사용할때 선택
 ```swift
 var integer: Int = -100
@@ -22,14 +22,14 @@ print("Int 최댓값: \(Int.max), Int 최솟값: \(Int.min)")
 //Int 최댓값: 9223372036854775807, Int 최솟값: -9223372036854775808
 ```
 
-### 2. UInt: 
+### UInt 
  - - 부호를 포함하지 않는 0을 포함한 양의 정수
 ```swift
 let unsignedInteger: UInt = 50
 print("UInt 최댓값: \(UInt.max), Int 최솟값: \(UInt.min)")
 //UInt 최댓값: 18446744073709551615, Int 최솟값: 0
 ```
-### 3. 진수에 따라 정수 28을 표현하는 방법
+### 진수에 따라 정수 28을 표현하는 방법
 - 10진수
 ```swift
 let decimalInteger: Int = 28
@@ -73,7 +73,7 @@ let commandCharacter: Character = "❤"
 let 한글변수이름: Character = "ㄱ"
 ```
 
-## String: 
+## String
  - 문자의 나열인 문자열, character와 마찬가지로 유니코드 9문자를 사용하며 앞뒤에 큰따옴표를 사용하여 표현
 
 ```swift
@@ -118,7 +118,7 @@ print(isEmptyString) // false
 print(greeting.count) //2
 ```
 
-## 특수문자(제어문자) : 
+## 특수문자(제어문자)
  - 백슬레쉬에 특정한 문자를 조합하여 사용
 \n : 줄바꿈 문자
 \\ : 문자열 내에서 백슬래시 표현
