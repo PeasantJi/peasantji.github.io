@@ -2,8 +2,8 @@
 layout: single
 title:  "스위프트 기본 데이터 타입"
 header:
-  teaser: /assets/img/swiftpic.jpg
-  image: /assets/img/swiftpic.jpg
+  teaser: /assets/img/swift2.jpg
+  image: /assets/img/swift2.jpg
 categories:
   - swiftgrammar
 ---
