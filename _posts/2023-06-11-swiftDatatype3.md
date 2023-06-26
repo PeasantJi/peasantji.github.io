@@ -15,10 +15,9 @@ categories:
 tags:
   - Swift
   - Enum
+---
 
----
-열거형
----
+# 열거형
 - 열거형은 연관된 항목들을 묶어서 표현하는 타입
 - 배열과 딕셔너리와 다르게 정의해준 항목 값 외에는 추가/수정 불가
 
@@ -78,7 +77,7 @@ dinner = .chicken(withSauce: true)
 dinner = .rice //밥
 ```
 
-여러 열거형의 응용
+### 여러 열거형의 응용
 ```swift
 enum PastaTaste {
     case cream, tomato
@@ -174,7 +173,7 @@ indirect enum ArithmeticExpression {
 //ndirect 키워드는 이진 탐색 트리 등의 순환 알고리즘을 구현할 때 사용
 ```
 
-비교 가능한 열거형
+### 비교 가능한 열거형
 Comparable 프로토콜을 준수하는 연관 값만 갖거나 연관 값이 없는 열거형을 비교, 앞에 위치한 케이스가 더 작은 값이 됨
 ```swift
 enum Condition: Comparable {
