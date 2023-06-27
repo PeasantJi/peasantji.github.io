@@ -11,10 +11,10 @@ toc_icon: "tasks"
 categories:
   - macos
 tags:
-  - Swift
   - Daemons
   - Agents
   - macOS
+  - Python
 ---
 
 # macOS launch Agent?
@@ -56,7 +56,8 @@ createText(title)
 - plist?
 프로퍼티 리스트(Property list) 파일로 애플에서 사용하는 속성 목록형식의 텍스트 파일. 각종 애플의 운영시스템 macOS, iOS, iPadOS등의 설정 및 데이터를 XML 구조로 저장
 plist 파일을 생성할때는 두가지 방법이 있습니다.
-#### 방법 1. Xcode에서 생성 : Xcode 아무 프로젝트에서 file -> new -> file -> macOS 탭선택 -> Property List
+#### 방법 1. Xcode에서 생성
+Xcode 아무 프로젝트에서 file -> new -> file -> macOS 탭선택 -> Property List
 ![image](https://github.com/PeasantJi/peasantji.github.io/assets/120621196/96e17b18-486d-413a-b61a-69b7326ef804)
 
 *Xcode plist 생성*
@@ -66,7 +67,8 @@ plist 파일을 생성할때는 두가지 방법이 있습니다.
 *plist 작성 후 xcode에서 실행한 plist*
 
 
-#### 방법 2. text editor나 다른 IDE에서 작성(vc code사용) : vc code에서 file -> new text file -> 아무제목.plist
+#### 방법 2. text editor나 다른 IDE에서 작성(vc code사용)
+vc code에서 file -> new text file -> 아무제목.plist
 ![image](https://github.com/PeasantJi/peasantji.github.io/assets/120621196/077b0c7a-2755-41cb-a4ec-ecb2c79e9682)
 vc code에서 작성된 plist
 
