@@ -82,10 +82,13 @@ LaunchAgents 경로
 
 - Library 경로는 두곳이 존재하며 Users안의 user이름 -> Library -> LaunchAgents 붙여넣기
 - plist를 붙여넣으면 알림이 뜨는데 login Items에 파이썬실행을 허락할 것인지 토글로 선택
+
 ### 4. 터미널실행
->launchctl load -w /Users/유저이름/Library/LaunchAgents/제목.plist 
+>launchctl load -w /Users/유저이름/Library/LaunchAgents/제목.plist
+
 ### 5. 자동화 수행 종료
->launchctl unload -F /Users/유저이름/Library/LaunchAgents/제목.plist  
+>launchctl unload -F /Users/유저이름/Library/LaunchAgents/제목.plist
+
 ### 6. 실행 결과물 
 ![image](https://github.com/PeasantJi/peasantji.github.io/assets/120621196/d7a682ef-1f8f-49ba-8d5f-347d7a4dd673)
 
